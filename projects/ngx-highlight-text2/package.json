@@ -1,0 +1,31 @@
+{
+  "name": "ngx-highlight-text2",
+  "version": "2.0.0",
+  "description": "This package contains an Angular component to highlight one or many words in a given text.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pmendelson/ngx-highlight-text2"
+  },
+  "keywords": [
+    "highlight",
+    "angular",
+    "keyword",
+    "word",
+    "color",
+    "format",
+    "component"
+  ],
+  "contributors": [
+    {"name": "Balram Chavan", "url": "https://balramchavan.com"},
+    {"name": "Paul Mendelson", "url": "https://github.com/pmendelson"}
+  ],
+
+  "peerDependencies": {
+    "@angular/common": "^20.1.0",
+    "@angular/core": "^20.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
