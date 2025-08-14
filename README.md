@@ -50,12 +50,14 @@ export class MyComponent {
 
 | Property    | Description                                                                                              | Type              | Default  |
 | ----------- | -------------------------------------------------------------------------------------------------------- | ----------------- | -------- |
-| `[content]`    | the text to be highlighted | `string` | `""` |
+| `[content]`    | the text to be highlighted | `string` | |
 | `[terms]`    | the term or terms to highlight | `string` or `string[]` |  |
 | `[hl-color-bg]`    | the background color to highlight a term | `string` | `yellow` |
 | `[hl-color-fg]`    | the foreground color to highlight a term | `string` | `black` |
-| `[hl-style]`    | the full css style to highlight a term (superceedes `[hl-color-bg]` / `[hl-color-fg]`) | `string` | `` |
-| `[hl-class]`    | the name of css class to highlight a term (superceedes `[hl-style]`) | `string` | `` |
+| `[hl-style]`    | the full css style to highlight a term | `string` | `font-weight:bold` |
+| `[hl-class]`    | the name of css class to highlight a term (superceedes `[hl-style]`) | `string` | |
+| `[match-all]`    | if true match all instances within the content, otherwise just match the first one | `boolean` | `true` |
+| `[match-case]`    | if true match case exactly, otherwise ignore case | `boolean` | `false` |
 
 ## Example
 
